@@ -10,6 +10,8 @@ List of words used is contains "forme reduse" and "forme flexionare" from https:
 I've concatenated the files and extracted words which had 5 characters using:
 
 ```sh
+egrep '^.{6}$' loc-reduse-6.0.txt >> allWords
+egrep '^.{6}$' loc-flexiuni-6.0.txt >> allWords
 for l in $(cat allWords)
 do
 	l="$(echo "$l"|tr -d '\r')"
