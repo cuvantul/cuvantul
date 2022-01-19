@@ -1477,9 +1477,11 @@
     }
 
     function Da(e) {
-      var a,
-        s = Ga(e);
-      return (a = s % La.length), La[a];
+      //   var a,
+      //   s = Ga(e);
+      // return (a = s % La.length), La[a];
+      const manualSetSolution = 'medic';
+      return manualSetSolution;
     }
 
     function Ga(e) {
