@@ -2630,7 +2630,9 @@
                               n = e.isWin,
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = 'Wordle '.concat(s);
+                              l = 'https://cuvantul.github.io/cuvantul '.concat(
+                                s,
+                              );
                             (l += ' '.concat(n ? t : 'X', '/').concat(6)),
                               o && (l += '*');
                             var d = '';
@@ -2674,7 +2676,7 @@
                           }),
                           function () {
                             e.gameApp.addToast(
-                              'Copied results to clipboard',
+                              'Rezultat copiat în clipboard',
                               2e3,
                               !0,
                             );
