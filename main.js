@@ -1480,7 +1480,7 @@
       //   var a,
       //   s = Ga(e);
       // return (a = s % La.length), La[a];
-      const manualSetSolution = 'medic';
+      const manualSetSolution = 'soare';
       return manualSetSolution;
     }
 
