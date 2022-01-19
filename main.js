@@ -1477,11 +1477,11 @@
     }
 
     function Da(e) {
-      //   var a,
-      //   s = Ga(e);
-      // return (a = s % La.length), La[a];
-      const manualSetSolution = 'soare';
-      return manualSetSolution;
+      var a,
+        s = Ga(e);
+      return (a = s % La.length), La[a];
+      // const manualSetSolution = 'soare';
+      // return manualSetSolution;
     }
 
     function Ga(e) {
